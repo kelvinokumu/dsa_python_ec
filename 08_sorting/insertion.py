@@ -3,7 +3,7 @@ import random
 def sort(values):
     num_of_elements = len(values)
     for current_index in range(1, num_of_elements):
-        print("Outer loop")
+        # print("Outer loop")
         current_value = values[current_index]
         while values[current_index - 1] > current_value and current_index > 0:
             temp = values[current_index - 1]
